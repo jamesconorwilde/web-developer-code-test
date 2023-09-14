@@ -1,66 +1,44 @@
-# Shine Lawyers Code Test - Multi-step form
+# Multi-Step Form Challenge
 
-![Design preview for the Multi-step form coding challenge](./design/desktop-preview.jpg)
+##Overview
+In this challenge, I have created a multi-step form that closely adheres to the provided design. The goal was to ensure a seamless user experience, allowing users to progress through each step, review and update their selections, and confirm their order. Additionally, the interface needed to be responsive, with hover and focus states for interactive elements and form validation messages.
 
+##Project Structure
+Here's an overview of how I structured this project:
 
-## The challenge
+HTML: I began by creating the HTML structure for the multi-step form, breaking it down into individual sections for each step. This structure made it easier to apply styles and functionality to each step.
 
-Your challenge is to build out this multi-step form and get it looking as close to the design as possible.
+CSS: For styling, I used CSS to match the design mockups provided in the /design folder. I organized the CSS to follow a logical order, starting with base styles and progressively adding styles for each section and element. Media queries were used to ensure responsiveness.
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+Fonts: I chose to host fonts locally using the provided font files. This decision was made to optimize loading speed and maintain design consistency. Font-face declarations were added to the CSS to use these custom fonts.
 
-Your users should be able to:
+Assets: All project assets, including images and fonts, are stored in the /assets folder. Images are appropriately sized and optimized for different screens.
 
-- Complete each step of the sequence
-- Go back to a previous step to update their selections
-- See a summary of their selections on the final step and confirm their order
-- View the optimal layout for the interface depending on their device's screen size
-- See hover and focus states for all interactive elements on the page
-- Receive form validation messages if:
-  - A field has been missed
-  - The email address is not formatted correctly
-  - A step is submitted, but no selection has been made
+##Design Decisions
+Responsive Design: To ensure the form works well on various devices, I used media queries to create responsive layouts. The form adapts to both mobile and desktop screen sizes, maintaining a clean and user-friendly interface.
 
+Font Choices: I carefully selected and incorporated fonts that align with the design and provide a visually appealing reading experience. The decision to host fonts locally was made to enhance performance.
 
-## Where to find everything
+Form Validation: I implemented form validation messages to guide users and provide feedback when they miss required fields or incorrectly format their email address.
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design. 
+CSS Organization: To maintain code readability and scalability, I organized the CSS into sections, focusing on base styles first and then refining styles for individual elements.
 
-The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. 
+##Development Process
+Project Setup: I initialized the project as a public repository on GitHub for version control and collaboration. This allowed me to easily share my progress with the community.
 
+HTML Structure: I started by creating the HTML structure, defining the form steps and their content. Structuring the HTML first helped me focus on content organization.
 
-All the required assets for this project are in the `/assets` folder. The images are already exported for the correct screen size and optimized.
+Base Styles: I established base styles for the entire project, setting things like font families, font sizes, and color schemes. This created a consistent visual foundation.
 
-We also include variable and static font files for the required fonts for this project. You can choose to either link to Google Fonts or use the local font files to host the fonts yourself. Note that we've removed the static font files for the font weights that aren't needed for this project.
+Step-by-Step Styling: I followed the mockups in the /design folder to style each step of the form progressively. I ensured that the form matched the design as closely as possible.
 
-There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
+Responsive Design: Using media queries, I made adjustments to the layout, font sizes, and padding to ensure the form's responsiveness on various screen sizes.
 
-## Building your project
+Form Validation: I implemented JavaScript-based form validation to provide users with clear error messages when needed.
 
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
+Testing and Debugging: I thoroughly tested the form on different devices and browsers to ensure a seamless user experience. Any issues or bugs were addressed during this phase.
 
-1. Initialize your project as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/).
-2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
+Deployment: I deployed the project using Netlify and made sure the live site was accessible for testing.
 
-## Deploying your project
-
-As mentioned above, there are many ways to host your project for free. Our recommend hosts are:
-
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
-
-
-## Create a custom `README.md`
-
-We strongly recommend overwriting this `README.md` with a custom one. Please give an overview of why you have structured things the way you and and why you made any decisions you did.
-
-## Submitting your solution
-
-Please send a link of the Github Repo and deployed site to you contact in the HR/REcruitment team at Shine.
-
-**Have fun building!** 🚀
+##Conclusion
+This Multi-Step Form Challenge was an exciting opportunity to practice my front-end development skills and create a user-friendly form that meets design specifications. It allowed me to showcase my ability to structure HTML, apply responsive CSS, and implement form validation for an enhanced user experience. Thank you for reviewing my submission!
