@@ -28,6 +28,18 @@ body {
     padding: 20px;
 }
 
+h2 {
+    font-family: 'UbuntuMedium', Arial, sans-serif;
+    font-size: 20px;
+    margin-top: 0;
+}
+
+h1 {
+    font-family: 'UbuntuBold', Arial, sans-serif;
+    font-size: 30px;
+}
+
+
 .form-step {
     display: none;
 }
@@ -54,10 +66,6 @@ body {
 }
     }
 
-.sidebar h2 {
-    margin: 0;
-}
-
 .sidebar ul {
     list-style: none;
     padding: 0;
@@ -80,15 +88,6 @@ body {
     border: 1px solid #ccc;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
     border-radius: 0px 10px 10px 0px;
-}
-
-h2 {
-    font-family: 'UbuntuMedium', Arial, sans-serif;
-    margin-top: 0;
-}
-
-h1 {
-    font-family: 'UbuntuBold', Arial, sans-serif;
 }
 
 input[type="text"],
