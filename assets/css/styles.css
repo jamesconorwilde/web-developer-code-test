@@ -24,9 +24,8 @@ body {
 .sidebar {
     flex: 1; /* Grow and shrink to fill available space */
     width: 200px;
-    background-color: #007bff;
+    background-image: url(/assets/images/bg-sidebar-desktop.svg);
     color: #fff;
-    padding: 20px;
     text-align: center;
 }
 
