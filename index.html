@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Mentor | Multi-step form</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<div class="container">    
+<div class="sidebar">
+    <ul>
+        <li>
+            <a href="#step-1">
+                <h1>Step 1</h1>
+                <h2>Your info</h2>
+            </a>
+        </li>
+        <li>
+            <a href="#step-2">
+                <h1>Step 2</h1>
+                <h2>Select plan</h2>
+            </a>
+        </li>
+        <li>
+            <a href="#step-3">
+                <h1>Step 3</h1>
+                <h2>Add-ons</h2>
+            </a>
+        </li>
+        <li>
+            <a href="#step-4">
+                <h1>Step 4</h1>
+                <h2>Summary</h2>
+            </a>
+        </li>
+    </ul>
+</div>
+
+
+    <div class="content">
+
+         <form id="multi-form" method="POST" action="/success" data-netlify="true">
+            
+            <!-- STEP 1 -->
+            <div class="form-step" id="step-1">
+                 
+                
+            <h2>Personal Info</h2>
+            <p>Please provide your name, email address, and phone number.</p>
+                
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required placeholder="e.g. Stephen King">
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required placeholder="johndoe@example.com">
+            
+            <label for="phone">Phone Number:</label>
+            <input type="text" id="phone" name="phone" required placeholder="e.g. +1 234 567 890">
+            
+                
+            <button type="button" id="next-1">Next Step</button>
+                 
+        </div>
+
+            <!-- STEP 2 -->
+            
+<div class="form-step" id="step-2">
+    <h2>Step 2: Select Your Plan</h2>
+    <p>You have the option of monthly or yearly billing.</p>
+
+    
+    <!-- Plan Selection -->
+    <div>
+        <div class="labelclass">
+        <label>Choose a plan:</label>
+            </div>
+        <div>
+            <button type="button" class="plan-button" data-plan="Arcade">
+                <span>Arcade</span>
+                <span>$9/mo</span>
+            </button>
+            <button type="button" class="plan-button" data-plan="Advanced">
+                <span>Advanced</span>
+                <span>$12/mo</span>
+            </button>
+            <button type="button" class="plan-button" data-plan="Pro">
+                <span>Pro</span>
+                <span>$15/mo</span>
+            </button>
+        </div>
+    </div>
+
+    
+    <!-- Billing Frequency -->
+    <div>
+        <div class="labelclass">
+        <label>Choose billing frequency:</label>
+        </div>
+        <div>
+            <button type="button" class="billing-button" data-billing="Monthly">
+                <span>Monthly</span>
+            </button>
+            <button type="button" class="billing-button" data-billing="Yearly">
+                <span>Yearly</span>
+            </button>
+        </div>
+    </div>
+
+    <button type="button" id="prev-2">Go Back</button>
+    <button type="button" id="next-2">Next Step</button>
+</div>
+
+            <!-- STEP 3 -->
+            
+    <div class="form-step" id="step-3">
+        <h2>Step 3: Pick Add-ons</h2>
+        <p>Add-ons help enhance your gaming experience.</p>
+
+        
+    <!-- Add-on Selection -->
+    <div>
+        <label>Choose add-ons:</label>
+        <div>
+            <button type="button" class="addon-button" data-addon="Online service">
+                <span>Online service</span>
+                <span>+ $1/mo</span>
+            </button>
+            <button type="button" class="addon-button" data-addon="Larger storage">
+                <span>Larger storage</span>
+                <span>+ $2/mo</span>
+            </button>
+            <button type="button" class="addon-button" data-addon="Customizable Profile">
+                <span>Customizable Profile</span>
+                <span>+ $2/mo</span>
+            </button>
+        </div>
+    </div>
+
+        
+      <button type="button" id="prev-3">Go Back</button>
+      <button type="submit">Next Step</button>
+        
+  </div>
+
+            
+            <!-- STEP 4 -->
+            
+        <div class="form-step" id="step-4">
+    <h2>Step 4: Review and Confirm</h2>
+    <p>Please review your selections before confirming.</p>
+
+            
+    <!-- Display Selected Plan -->
+    <div>
+        <h3>Selected Plan:</h3>
+        <p id="selected-plan">No plan selected</p>
+    </div>
+
+    <!-- Display Selected Add-ons -->
+    <div>
+        <h3>Selected Add-ons:</h3>
+        <ul id="selected-addons">
+            <li>No add-ons selected</li>
+        </ul>
+    </div>
+
+    <!-- Display Selected Billing Frequency -->
+    <div>
+        <h3>Selected Billing Frequency:</h3>
+        <p id="selected-billing">No billing frequency selected</p>
+    </div>
+
+            
+    <button type="button" id="prev-4">Go Back</button>
+    <button type="button" id="confirm">Submit</button>
+</div>
+
+            
+            <!-- END OF FORM -->
+        </form>
+    </div>
+    </div>
+    <script src="assets/js/script.js"></script>
+
+</body>
+</html>

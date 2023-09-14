@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 20px;
+}
+
+.form-step {
+    display: none;
+}
+
+/* Display the first step initially */
+#step-1 {
+    display: block;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next row if necessary */
+}
+
+.sidebar {
+    flex: 1; /* Grow and shrink to fill available space */
+    width: 200px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.sidebar h2 {
+    margin: 0;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin-bottom: 10px;
+}
+
+.sidebar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.content {
+    flex: 1; /* Grow and shrink to fill available space */
+    max-width: 400px;
+    background-color: #fff;
+    padding: 40px 40px 20px 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    margin-top: 0;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.labelclass {
+    margin-top: 10px;
+    margin-bottom: 5px
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="button"] {
+    background-color: #ccc;
+}
+
+button[type="submit"] {
+    background-color: #28a745;
+}
+
+/* Define styles for selected buttons */
+.selected {
+    background-color: #007BFF; /* Change to the background color you prefer */
+    color: #FFFFFF; /* Change to the text color you prefer */
+    border: 2px solid #007BFF; /* Change to the border color you prefer */
+}
+
+/* Style for plan buttons */
+.plan-button.selected {
+    /* Add specific styles for selected plan buttons, if needed */
+}
+
+/* Style for billing buttons */
+.billing-button.selected {
+    /* Add specific styles for selected billing buttons, if needed */
+}
+
+/* Style for addon buttons */
+.addon-button.selected {
+    /* Add specific styles for selected addon buttons, if needed */
+}
+
