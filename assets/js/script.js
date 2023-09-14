@@ -72,18 +72,6 @@ addonButtons.forEach((button) => {
     });
 });
 
-// Update Step 3 to navigate to Step 4
-const nextButtonStep3 = document.querySelector('#next-3');
-nextButtonStep3.addEventListener('click', () => {
-    const selectedAddons = Array.from(addonButtons).filter((button) => button.classList.contains('selected'));
-
-    if (selectedAddons.length > 0) {
-        currentStep = 3;
-        showStep(currentStep);
-    } else {
-        alert('Please select at least one add-on.');
-    }
-});
 
 // Handle Step 4 confirmation
 const confirmButton = document.querySelector('#confirm');
