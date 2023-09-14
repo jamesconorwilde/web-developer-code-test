@@ -173,13 +173,32 @@
 
             
     <button type="button" id="prev-4">Go Back</button>
-    <button type="button" id="confirm">Submit</button>
+    <button type="submit" id="confirm">Submit</button>
 </div>
 
             
             <!-- END OF FORM -->
         </form>
     </div>
+    
+    <!-- Thank You Message -->
+<div id="thank-you-message" style="display: none;">
+    <h2>Thank You!</h2>
+    <p>Your order has been successfully submitted.</p>
+</div>
+
+<script>
+    // Add an event listener to the form submission
+    document.getElementById("order-form").addEventListener("submit", function (event) {
+        event.preventDefault(); // Prevent the default form submission behavior
+        
+        // Assuming you've validated the form and are ready to submit
+        // You can replace this with your actual form submission logic
+        // For now, just showing the thank you message
+        document.getElementById("thank-you-message").style.display = "block";
+    });
+</script>
+    
     </div>
     <script src="assets/js/script.js"></script>
 
