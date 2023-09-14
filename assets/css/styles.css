@@ -90,18 +90,18 @@ button {
 }
 
 button[type="button"] {
-    background-color: #ccc;
+    background-color: #6259ff;
 }
 
 button[type="submit"] {
-    background-color: #28a745;
+    background-color: #f9818e;
 }
 
 /* Define styles for selected buttons */
 .selected {
-    background-color: #007BFF; /* Change to the background color you prefer */
+    background-color: #ffaf7e; /* Change to the background color you prefer */
     color: #FFFFFF; /* Change to the text color you prefer */
-    border: 2px solid #007BFF; /* Change to the border color you prefer */
+   
 }
 
 /* Style for plan buttons */
