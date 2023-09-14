@@ -23,7 +23,7 @@ body {
 
 .sidebar {
     flex: 1; /* Grow and shrink to fill available space */
-    max-width: 140px;
+    width: auto;
     background-image: url(/assets/images/bg-sidebar-desktop.svg);
     color: #fff;
     text-align: center;
