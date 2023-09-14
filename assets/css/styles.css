@@ -1,5 +1,26 @@
+@font-face {
+    font-family: 'UbuntuBold';
+    src: url('/assets/fonts/Ubuntu-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'UbuntuMedium';
+    src: url('/assets/fonts/Ubuntu-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'UbuntuRegular';
+    src: url('/assets/fonts/Ubuntu-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'UbuntuRegular', Arial, sans-serif;
     background-color: #f0f0f0;
     display: flex;
     align-items: flex-start;
@@ -62,7 +83,12 @@ body {
 }
 
 h2 {
+    font-family: 'UbuntuMedium', Arial, sans-serif;
     margin-top: 0;
+}
+
+h1 {
+    font-family: 'UbuntuBold', Arial, sans-serif;
 }
 
 input[type="text"],
