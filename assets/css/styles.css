@@ -119,3 +119,9 @@ button[type="submit"] {
 .addon-button.selected {
     /* Add specific styles for selected addon buttons, if needed */
 }
+
+@media screen and (max-width: 768px) {
+    .sidebar {
+        background-color: #483eff;
+    }
+}
